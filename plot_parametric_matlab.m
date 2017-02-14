@@ -1,6 +1,6 @@
 function [h] = plot_parametric_matlab()
 %PLOT_MATLAB Plot a parametric function using Matlab
-h = fplot(@funcx, @funcy, [1 50*pi], 'MeshDensity', 100);
+h = fplot(@funcx, @funcy, [0 100*pi], 'MeshDensity', 100);
 axis equal;
 end
 
